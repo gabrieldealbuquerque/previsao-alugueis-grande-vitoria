@@ -1,0 +1,4 @@
+id,cidade,bairro,tipo,area_m2,quartos,banheiros,suites,vagas,condominio,mobiliado,elevador,descricao
+exemplo_01,Vitoria,Jardim Camburi,Apartamento,70,2,2,1,1,550,nao,sim,"Apartamento fictício com varanda e elevador."
+exemplo_02,Vila Velha,Praia de Itaparica,Apartamento,95,3,2,1,2,700,sim,sim,"Apartamento fictício mobiliado, com varanda e piscina."
+exemplo_03,Serra,Colina de Laranjeiras,Casa,120,3,2,1,2,0,nao,nao,"Casa fictícia com quintal e área de serviço."

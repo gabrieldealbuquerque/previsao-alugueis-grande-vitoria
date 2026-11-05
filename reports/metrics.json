@@ -1,0 +1,52 @@
+{
+  "target": "preco_aluguel",
+  "chosen_model": "xgb_comparables",
+  "metrics": {
+    "mae": 675.7477840282116,
+    "rmse": 1507.7094630693691,
+    "medae": 279.4530817471614,
+    "mape": 15.30804760091587,
+    "mdape": 8.523984918570244,
+    "within_15_pct": 68.53487663722206,
+    "r2": 0.8136925060707078
+  },
+  "training_rows_raw": 3369,
+  "training_rows_fit": 3283,
+  "folds": 5,
+  "training_seconds": 61.13826584815979,
+  "runtime_versions": {
+    "xgboost": "3.3.0",
+    "scikit-learn": "1.9.0",
+    "joblib": "1.5.3",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0"
+  },
+  "evaluation": "Historical out-of-fold metrics stored in the original academic model; training was not rerun for publication.",
+  "publication": {
+    "reference_rows_checked": 3283,
+    "max_absolute_prediction_difference": 0.0,
+    "reference_columns": {
+      "houses": [
+        "cidade",
+        "bairro_norm",
+        "quartos",
+        "banheiros",
+        "vagas",
+        "area_m2",
+        "area_construida_m2"
+      ],
+      "apartments": [
+        "cidade",
+        "bairro_norm",
+        "rua_norm",
+        "quartos",
+        "banheiros",
+        "vagas",
+        "area_m2",
+        "condominio"
+      ]
+    },
+    "artifact_sha256": "6ebc31f1c65aea989232bf7d4bfebbad9c0045e41a85b99c2d78782511ab24ef"
+  }
+}

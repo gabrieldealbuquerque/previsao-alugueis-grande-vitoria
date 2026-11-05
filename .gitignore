@@ -1,0 +1,17 @@
+.venv/
+.venv-windows/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+# Dados de coleta e avaliação não são redistribuídos.
+dados/
+/entrada.csv
+/entradaProfessor.csv
+/resultadoProfessor.csv
+/resultado.csv
+*.log
